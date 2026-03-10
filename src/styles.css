@@ -1,0 +1,110 @@
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#0b1020;
+    color:white;
+    display:flex;
+    height:100vh;
+}
+
+/* LEFT PANEL */
+
+.sidebar{
+    width:240px;
+    background:#1f2937;
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.sidebar h2{
+    font-size:18px;
+    margin-bottom:10px;
+}
+
+.sidebar button{
+    background:#4f6edb;
+    border:none;
+    padding:12px;
+    color:white;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:14px;
+}
+
+.sidebar button:hover{
+    background:#3d5cc4;
+}
+
+
+/* CANVAS */
+
+.canvas{
+    flex:1;
+    padding:30px;
+    background:#0b1020;
+    position:relative;
+}
+
+.canvas-title{
+    font-size:22px;
+    margin-bottom:20px;
+}
+
+
+/* NODE BLOCK */
+
+.node{
+    background:#1e293b;
+    border-radius:10px;
+    padding:20px;
+    margin-bottom:20px;
+    width:600px;
+    box-shadow:0 6px 18px rgba(0,0,0,0.4);
+}
+
+.node h3{
+    margin:0;
+    font-size:18px;
+}
+
+.node span{
+    color:#9ca3af;
+    font-size:13px;
+}
+
+
+/* RUN BUTTON */
+
+.run-btn{
+    position:absolute;
+    bottom:40px;
+    left:50%;
+    transform:translateX(-50%);
+    background:#22c55e;
+    border:none;
+    padding:14px 28px;
+    font-size:16px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.run-btn:hover{
+    background:#16a34a;
+}
+
+
+/* LOG BOX */
+
+.log-box{
+    position:absolute;
+    bottom:120px;
+    left:50%;
+    transform:translateX(-50%);
+    background:#111827;
+    padding:15px;
+    border-radius:8px;
+    font-size:13px;
+    width:220px;
+}
